@@ -26,7 +26,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Set shipping API level (Indicates the first api level, device has been commercially launched on)
 PRODUCT_SHIPPING_API_LEVEL := 29
-
+TARGET_DISABLE_EPPE := true
 # Device identifiers.
 PRODUCT_NAME := lineage_billie
 PRODUCT_DEVICE := billie

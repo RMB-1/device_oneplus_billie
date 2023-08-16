@@ -155,11 +155,11 @@ PRODUCT_PACKAGES += \
     libvisualizer
 
 PRODUCT_PACKAGES += \
-    audio.a2dp.default \
     audio.bluetooth.default \
     audio_amplifier.lito \
     audio.r_submix.default \
     audio.usb.default
+    # audio.a2dp.default \
 
 PRODUCT_PACKAGES += \
     android.hardware.audio.service \
@@ -332,8 +332,8 @@ PRODUCT_PACKAGES += \
     libhwbinder.vendor
 
 PRODUCT_PACKAGES += \
-    android.hidl.base@1.0 \
     android.hidl.base@1.0_system \
+    android.hidl.base@1.0 \
     android.hidl.manager@1.0 \
     android.hidl.manager@1.0_system
 

@@ -78,6 +78,8 @@ extern "C" {
 #define AB_SLOT_INACTIVE                0
 #define AB_SLOT_A_SUFFIX                "_a"
 #define AB_SLOT_B_SUFFIX                "_b"
+#define PTN_MULTIIMGOEM                 "multiimgoem"
+#define PTN_MULTIIMGQTI                 "multiimgqti"
 #define PTN_XBL                         "xbl"
 #define PTN_XBL_CFG                     "xbl_config"
 #define PTN_SWAP_LIST                   PTN_XBL, PTN_XBL_CFG, "sbl1", "rpm", "tz", "aboot", "abl", "hyp", "lksecapp", "keymaster", "cmnlib", "cmnlib32", "cmnlib64", "pmic", "apdp", "devcfg", "hosd", "keystore", "msadp", "mdtp", "mdtpsecapp", "dsp", "aop", "qupfw", "vbmeta", "dtbo", "imagefv", "ImageFv", "multiimgoem", "multiimgqti", "uefisecapp"
